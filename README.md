@@ -33,3 +33,19 @@ Example response:
         "email": "rahul@example.com"
     }
 ]
+## Part 3 — POST
+
+Implemented a POST `/users` endpoint to add new users.
+
+The API accepts user details in JSON format and adds the new user to the users list.
+
+### POST /users
+
+Example request:
+
+```json
+{
+    "name": "Aman",
+    "email": "aman@example.com"
+}
+
