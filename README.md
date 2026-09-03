@@ -45,6 +45,20 @@ Example request:
 
 ```json
 {
+## Part 4 — PUT
+
+Implemented a PUT `/users/<id>` endpoint to update an existing user's information.
+
+### PUT /users/1
+
+Example request:
+
+```json
+{
+    "name": "Aman Sharma",
+    "email": "aman.sharma@example.com"
+}
+
     "name": "Aman",
     "email": "aman@example.com"
 }
