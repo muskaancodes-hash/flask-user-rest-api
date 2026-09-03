@@ -62,4 +62,13 @@ Example request:
     "name": "Aman",
     "email": "aman@example.com"
 }
+## Part 5 — DELETE
+
+Implemented a DELETE `/users/<id>` endpoint to delete an existing user.
+
+### DELETE /users/1
+
+The API removes the specified user and returns a success message.
+
+If the user does not exist, the API returns a `404 Not Found` response.
 
